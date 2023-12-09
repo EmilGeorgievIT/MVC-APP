@@ -21,7 +21,7 @@ jobs:
       with:
         node-version: 18.x
         cache: 'npm'
+    - name: Build the APP
+      run: npm intall
     - name: Run unit tests
       run: npm run test
-    - name: Build the APP
-      run: npm run start
